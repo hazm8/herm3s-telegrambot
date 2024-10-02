@@ -1,0 +1,10 @@
+# NO API Keys for you
+secret.py
+
+#No VENV
+venv/
+__pycache__/
+
+#No Images
+*.png
+auto11-img/

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+SCRIPT="autos3z.py"
+
+if pgrep -f "$SCRIPT" > /dev/null
+then
+	echo "Hermes3 is live!"
+else
+	echo "Hermes3 has fallen!"
+	source /home/ibis/projects/TeleBot2/venv/bin/activate
+	python3 /home/ibis/projects/herm3s/autos3z.py &
+fi
