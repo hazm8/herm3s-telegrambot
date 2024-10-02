@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT="autos3z.py"
+SCRIPT="herm3s.py"
 
 if pgrep -f "$SCRIPT" > /dev/null
 then
