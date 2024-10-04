@@ -4,7 +4,9 @@ Using the Nous Research [Hermes3](https://nousresearch.com/hermes3/) llm this is
 
 A locally hosted AI chatbot intergrated into a telegram bot.
 Requires running [Ollama](https://github.com/ollama/ollama) and [Auto1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) locally.
+
 ![auto1111 images](https://github.com/hazm8/herm3s-telegrambot/blob/main/images/photo_2024-10-04_17-06-26.jpg)
+
 ## Installing
 #### Linux Install
 ```
@@ -39,4 +41,5 @@ python3 herm3s.py
 - [DreamShaper8 LCM](https://civitai.com/models/4384?modelVersionId=252914)
 
 
-
+### Coments
+This was a project I spun up in about a week. I itterated several time. This is by no means a finished piece of work. It was simply a project I used to relearn some python basics, LLM prompting and API requests. This works reasonable well on my RTX4070, especially since switching to an LCM stable diffusion model that allows for low steps. I have a fair bit of tweaking to do on the modelfiles for ollama and optimisng the code. Enjoy.
