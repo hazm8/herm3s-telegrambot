@@ -8,7 +8,7 @@ import os
 from lamachat import get_ollama_response
 # Set the URL for the API
 def auto_gen (Input, user_chat):
-    url = "http://192.168.0.166:7861/sdapi/v1/txt2img"
+    url = "http://localhost:7861/sdapi/v1/txt2img"
     prompt = get_ollama_response(model = "CapBot",  char_chat=Input , user_chat=user_chat,)
     pre_prompt ="((high quality digital artwork masterpiece, high quality)),hermes, masculine god, greek god, god of magic and technology, winged helmet"
     re_prompt = pre_prompt + " " + prompt + "8k, unity render,character artwork"
