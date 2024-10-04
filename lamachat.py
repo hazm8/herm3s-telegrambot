@@ -5,7 +5,7 @@ import time
 
 def get_ollama_response(model, char_chat, user_chat):
     # Define the URL for the Ollama API
-    url = "http://192.168.1.109:11434/api/chat"
+    url = "http://localhost:11434/api/chat"
 
     # Set up headers and data payload
     headers = {
