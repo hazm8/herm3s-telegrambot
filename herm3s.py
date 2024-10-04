@@ -6,7 +6,7 @@ import time
 import requests
 from auto11 import auto_gen
 from lamachat import get_ollama_response
-from lamachat import get_sez_response
+from lamachat import get_hermes_response
 import secret as secret
 
 #Import Token Keys
@@ -21,7 +21,7 @@ bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(func=lambda message: True)
 def handle_ollama_command(message):
     prompt = message.text  # You can modify this to take user input
-    response = get_sez_response(prompt, model = 'hermes3', user_chat=message.text)
+    response = get_hermes_response(prompt, model = 'hermes3', user_chat=message.text)
 
     # Send the response back to the user in Telegram
     bot.reply_to(message, response)
