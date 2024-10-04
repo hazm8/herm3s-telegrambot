@@ -4,7 +4,7 @@ Using the Nous Research [Hermes3](https://nousresearch.com/hermes3/) llm this is
 
 A locally hosted AI chatbot intergrated into a telegram bot.
 Requires running [Ollama](https://github.com/ollama/ollama) and [Auto1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) locally.
-
+![auto1111 images](https://github.com/hazm8/herm3s-telegrambot/blob/main/images/photo_2024-10-04_17-06-26.jpg)
 ## Installing
 #### Linux Install
 ```
