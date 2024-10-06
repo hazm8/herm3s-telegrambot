@@ -41,5 +41,5 @@ python3 herm3s.py
 - [DreamShaper8 LCM](https://civitai.com/models/4384?modelVersionId=252914)
 
 
-### Coments
+### Comments
 This was a project I spun up in about a week. I itterated several time. This is by no means a finished piece of work. It was simply a project I used to relearn some python basics, LLM prompting and API requests. This works reasonable well on my RTX4070, especially since switching to an LCM stable diffusion model that allows for low steps. I have a fair bit of tweaking to do on the modelfiles for ollama and optimisng the code. Enjoy.
